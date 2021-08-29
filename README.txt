@@ -13,7 +13,7 @@ who have enroled the Design and Testing subject of the Software Engineering curr
 University of Sevilla.  This project helps them start working on their new information system 
 projects.
 
-GitHub repository - https://github.com/josdurgar1/Acme-Planner
+GitHub repository - https://github.com/dancasnar1/Acme-Work-Plans
 GitHub release - https://github.com/josdurgar1/Acme-Planner/releases/tag/V2.0
 
 CleverCloud: http://app-3addf040-e6dc-4024-bb99-5a647f04cc9a.cleverapps.io/
