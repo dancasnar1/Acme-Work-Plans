@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AdministratorTaskTest extends AcmePlannerTest{
+public class AdministratorTaskTest extends AcmeWorkPlansTest{
 	
 	/*
 	 * Se autentica como administrador, después navega hasta listar las Tasks, a continuación comprueba que la lista

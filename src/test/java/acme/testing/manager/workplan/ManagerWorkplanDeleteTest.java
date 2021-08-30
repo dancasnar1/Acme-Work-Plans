@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class ManagerWorkplanDeleteTest extends AcmePlannerTest {
+public class ManagerWorkplanDeleteTest extends AcmeWorkPlansTest {
 
 	/*
 	 * Se loguea como un manager, lista sus workplans, posteriormente navega para ver los detalles del workplan que le indicamos

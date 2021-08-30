@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class ManagerTaskListAllTest extends AcmePlannerTest{
+public class ManagerTaskListAllTest extends AcmeWorkPlansTest{
 
 	/*
 	 * Se autentifica como manager, usa el menu desplegable de manager y accede a la lista de tareas, comprueba que las columnas de 

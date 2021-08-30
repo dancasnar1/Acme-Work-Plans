@@ -6,9 +6,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.By;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class ManagerWorkplanUnnasignedTest extends AcmePlannerTest {
+public class ManagerWorkplanUnnasignedTest extends AcmeWorkPlansTest {
 
 	/*
 	 *Nos autenticamos como un manager, navegamos hasta la lista de sus workplans, a continuación mostramos un workplan según

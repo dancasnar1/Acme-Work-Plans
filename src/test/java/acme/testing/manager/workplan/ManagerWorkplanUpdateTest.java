@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class ManagerWorkplanUpdateTest extends AcmePlannerTest{
+public class ManagerWorkplanUpdateTest extends AcmeWorkPlansTest{
 	
 	/*
 	 * Nos logueamos como un manager, visitamos su lista de workplans, visitamos un workplan específico según el recordIndex,
