@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AdministratorSpamListTest extends AcmePlannerTest{
+public class AdministratorSpamListTest extends AcmeWorkPlansTest{
 	
 	/*
 	 * Nos logueamos como administrator, navegamos hasta la lista de spam, donde tenemos el listado de 1 solo objeto de tipo

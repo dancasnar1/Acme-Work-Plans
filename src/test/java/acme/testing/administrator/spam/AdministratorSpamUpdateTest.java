@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AdministratorSpamUpdateTest extends AcmePlannerTest{
+public class AdministratorSpamUpdateTest extends AcmeWorkPlansTest{
 	
 	/* CASO POSITIVO
 	 * Se autentifica como administrator, accede al menu desplegable de administrator y navega hasta Spam Threshold, una vez dentro, comprueba que esta en el lugar correcto

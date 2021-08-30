@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class ManagerTaskUpdateTest extends AcmePlannerTest{
+public class ManagerTaskUpdateTest extends AcmeWorkPlansTest{
 	
 	/* CASO POSITIVO.
 	 * Se autentifica como manager, usa el menu desplegable de manager y accede a la lista de tareas propias, accede a la tarea con posición indicada en el archivo .csv

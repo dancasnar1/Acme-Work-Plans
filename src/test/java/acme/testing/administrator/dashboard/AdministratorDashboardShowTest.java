@@ -2,9 +2,9 @@ package acme.testing.administrator.dashboard;
 
 import org.junit.jupiter.api.Test;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AdministratorDashboardShowTest extends AcmePlannerTest{
+public class AdministratorDashboardShowTest extends AcmeWorkPlansTest{
 
 	
 	/*
