@@ -164,7 +164,7 @@
 
 	<bean id="task01" class="acme.entities.tasks.Task">
 		<property name="title" value="Holaaaaa"/>
-		<property name="initialMoment" value="2021/08/31 12:30"/>
+		<property name="initialMoment" value="2021/08/30 12:30"/>
 		<property name="endMoment" value="2021/09/25 12:00"/>
 		<property name="description" value="Descripcion aaaaaaaaa"></property>
 		<property name="workload" value="20.3"></property>
