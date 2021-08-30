@@ -68,7 +68,11 @@ public class ManagerWorkplanShowService implements AbstractShowService<Manager, 
 			calendar.set(Calendar.HOUR_OF_DAY, 8); // gets hour in 24h format
 			calendar.set(Calendar.MINUTE, 0);        // gets hour in 12h format
 			calendar.set(Calendar.DAY_OF_MONTH, calendar.get(Calendar.DAY_OF_MONTH)-1);
+			if(entity.getInit().after(calendar.getTime())) {
+				calendar.setTime(suggestionInit);
+			}else {
 			suggestionInit=calendar.getTime();
+			}
 		}
 		Date suggestionEnd=this.repository.findMaxEndWorkplanTask(entity.getId());
 		if(suggestionEnd!=null) {
