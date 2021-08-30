@@ -47,3 +47,5 @@ manager.task.form.error.nullendMoment = The end moment cannot be null
 manager.task.form.error.nullinitialMoment = The initial moment cannot be null
 manager.task.form.error.ended= Cannot delete task ended
 manager.task.form.error.workplan= You can't delete a task that belongs to a workplan
+manager.task.form.error.biggerThanLimit = The workload must be lower than 99.59
+manager.task.form.error.fractionError = The minutes of workload must be between 0 and 59

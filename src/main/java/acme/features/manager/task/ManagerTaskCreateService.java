@@ -168,6 +168,22 @@ public class ManagerTaskCreateService implements AbstractCreateService<Manager, 
 			errors.state(request, res, "workload", "manager.task.form.error.negativeworkload");
 
 		}
+		
+		if (!errors.hasErrors("workload")) {
+			final double workload = entity.getWorkload();
+			final long workload2 = (long) workload;
+			boolean res;
+
+			if(workload > 99.59) {
+				res=false;
+				errors.state(request, res, "workload", "manager.task.form.error.biggerThanLimit");
+			}
+			if(workload - workload2>0.59) {
+				res=false;
+				errors.state(request, res, "workload", "manager.task.form.error.fractionError");
+			}
+			
+		}
 
 		if (!errors.hasErrors("description")) {
 			boolean res;

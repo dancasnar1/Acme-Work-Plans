@@ -47,3 +47,5 @@ manager.task.form.error.nullendMoment = El momento de finalización no puede ser
 manager.task.form.error.nullinitialMoment = El momento de inicio no puede ser nulo
 manager.task.form.error.ended= No se puede modificar ni eliminar una tarea que ha finalizado
 manager.task.form.error.workplan= No puedes borrar una tarea que pertenezca a un workplan
+manager.task.form.error.biggerThanLimit = La workload debe ser más pequeña de 99.59
+manager.task.form.error.fractionError = Los minutos de la workload deben estar entre 0 y 59

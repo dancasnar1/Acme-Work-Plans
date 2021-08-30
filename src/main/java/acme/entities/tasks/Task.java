@@ -42,7 +42,7 @@ public class Task extends DomainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date					endMoment;
 	
-	@Digits(integer = 3, fraction = 2)
+	@Digits(integer = 2, fraction = 2)
 	protected Double 				workload;
 
 	@NotEmpty
