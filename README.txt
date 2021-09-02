@@ -16,4 +16,4 @@ projects.
 GitHub repository - https://github.com/dancasnar1/Acme-Work-Plans
 GitHub release - https://github.com/dancasnar1/Acme-Work-Plans/releases/tag/V2.0
 
-CleverCloud: http://app-3addf040-e6dc-4024-bb99-5a647f04cc9a.cleverapps.io/
+
