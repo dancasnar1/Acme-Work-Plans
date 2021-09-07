@@ -14,6 +14,6 @@ University of Sevilla.  This project helps them start working on their new infor
 projects.
 
 GitHub repository - https://github.com/dancasnar1/Acme-Work-Plans
-GitHub release - https://github.com/dancasnar1/Acme-Work-Plans/releases/tag/V2.0
+GitHub release - https://github.com/dancasnar1/Acme-Work-Plans/releases/tag/V3.0
 
 
